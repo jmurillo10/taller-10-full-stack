@@ -9,6 +9,8 @@
 <img src="./public/images/calc.png" alt= "calc">
 
 <h2> Punto 2: </h2>
+<h3>2 - Verificar edad</h3>
+<img src="./public/images/edad.png" alt= "edad">
 
 <h2> Punto 3: </h2>
 
