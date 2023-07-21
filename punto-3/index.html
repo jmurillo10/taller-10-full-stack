@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calculadora</title>
+    <title>Formulario de Usuario</title>
 </head>
 <body>
-    <form method="post" action="calculadora.php">
-        <input type="number" name="numero1" placeholder="Primer numero" required>
-        <input type="number" name="numero2" placeholder="Segundo numero" required>
-        <select name="operacion">
-            <option value="suma">Suma</option>
-            <option value="resta">Resta</option>
-            <option value="multiplicacion">Multiplicacion</option>
-            <option value="division">Division</option>
-        </select>
-        <input type="submit" name="submit" value="Calcular">
+    <form method="get" action="mostrar.php">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellido" placeholder="Apellido" required>
+        <input type="text" name="cedula" placeholder="Número de cedula" required>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
+
 
